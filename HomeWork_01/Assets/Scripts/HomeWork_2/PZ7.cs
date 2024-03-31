@@ -39,7 +39,6 @@ public class Person
         }
     }
 
-
     public int Health
     {
         get
@@ -53,5 +52,12 @@ public class Person
             else health = value; 
         }
     }
+
+    public virtual void ShowStat()   /////////// PZ 7_3
+    {
+        Debug.Log("Stat: " + name);
+    }
+
+
 }
 
