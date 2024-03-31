@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControllerAD.cs" />
+    <Compile Include="Assets\Scripts\HomeWork_2\PZ7.cs" />
     <Compile Include="Assets\Scripts\test\cubeScr.cs" />
     <Compile Include="Assets\Scripts\CollideChecker.cs" />
     <Compile Include="Assets\Scripts\locationBuilder.cs" />

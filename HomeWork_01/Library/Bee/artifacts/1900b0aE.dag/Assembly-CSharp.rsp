@@ -357,6 +357,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CollideChecker.cs"
 "Assets/Scripts/ControllerAD.cs"
+"Assets/Scripts/HomeWork_2/PZ7.cs"
 "Assets/Scripts/locationBuilder.cs"
 "Assets/Scripts/test/cubeScr.cs"
 "Assets/Scripts/test/cylinderScr.cs"
