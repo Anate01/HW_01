@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\test\cubeScr.cs" />
     <Compile Include="Assets\Scripts\CollideChecker.cs" />
     <Compile Include="Assets\Scripts\locationBuilder.cs" />
+    <Compile Include="Assets\Scripts\HomeWork_2\PZ7_2.cs" />
     <Compile Include="Assets\Scripts\test\cylinderScr.cs" />
   </ItemGroup>
   <ItemGroup>

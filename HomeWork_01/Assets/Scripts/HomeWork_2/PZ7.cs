@@ -8,14 +8,14 @@ public class PZ7 : MonoBehaviour
     private Person myPers = new Person();
     void Start()
     {
-        Debug.Log(myPers.Health);
+        Debug.Log("My Person health " + myPers.Health);
         myPers.Health = 30;
-        Debug.Log(myPers.Health);
+        Debug.Log("My Person health " + myPers.Health);
         myPers.Health = 300;
         myPers.Health = -300;
-        Debug.Log(myPers.Health);
+        Debug.Log("My Person health " + myPers.Health);
 
-        Debug.Log(myPers.Name);
+        Debug.Log("My Person name " + myPers.Name);
     }
 
 
@@ -32,6 +32,10 @@ public class Person
         get
         {
             return name;
+        }
+        private set
+        {
+            name = value; 
         }
     }
 

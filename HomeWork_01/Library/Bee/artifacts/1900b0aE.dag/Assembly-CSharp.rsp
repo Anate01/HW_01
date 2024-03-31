@@ -358,6 +358,7 @@
 "Assets/Scripts/CollideChecker.cs"
 "Assets/Scripts/ControllerAD.cs"
 "Assets/Scripts/HomeWork_2/PZ7.cs"
+"Assets/Scripts/HomeWork_2/PZ7_2.cs"
 "Assets/Scripts/locationBuilder.cs"
 "Assets/Scripts/test/cubeScr.cs"
 "Assets/Scripts/test/cylinderScr.cs"
