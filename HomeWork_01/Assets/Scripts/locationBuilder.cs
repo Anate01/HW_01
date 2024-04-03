@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class locationBuilder : MonoBehaviour
+public class LocationBuilder : MonoBehaviour
 {
     public Material greenMat;
     public Material redMat;
@@ -23,12 +23,12 @@ public class locationBuilder : MonoBehaviour
         meshRendererPlayer.material = greenMat;
         meshRendererEnemy.material = redMat;
 
-        Rigidbody rbPlayer = gameObject.AddComponent<Rigidbody>();
-        Rigidbody rbEnemy = gameObject.AddComponent<Rigidbody>();
+        Rigidbody rbPlayer = Player.AddComponent<Rigidbody>();
+        Rigidbody rbEnemy = Enemy.AddComponent<Rigidbody>();
         rbPlayer.isKinematic = true;
         rbEnemy.drag = 0.5f;
 
-        Player.AddComponent<ControllerAD>();
+        Player.AddComponent<PlayerMovement>();
         Player.AddComponent<CollideChecker>();
         Enemy.AddComponent<CollideChecker>();
     }
